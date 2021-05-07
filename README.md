@@ -21,6 +21,8 @@ Using your google account sign up to the Google Cloud Platform console - console
 **Step 2:** Enable API’s as shown below. Click on Enable APIs and Services
 **Step 3:** Create a BigQuery table. BigQuery is a serverless, highly scalable, low cost enterprise data warehouse. From the Cloud Console, select BigQuery and then Create new dataset – “heartRateData"  
 
+![image](https://user-images.githubusercontent.com/83789235/117398546-328f3080-aec4-11eb-9671-e34f505d0246.png)
+
  
 **Step 4:** Create a Pub/Sub topic and subscription
 
