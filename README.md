@@ -38,12 +38,12 @@ From the Cloud Console, select Dataflow. Click on Create Job from Template. Give
 
  
 
-**Step 6: **Create an IoT Core registry and Add the device to the IoT Core Registry
+**Step 6: ** Create an IoT Core registry and Add the device to the IoT Core Registry
 
  ![image](https://user-images.githubusercontent.com/83789235/117398621-53578600-aec4-11eb-8b6f-8f60d1de7f17.png)
 
 
-**Step 7: **Start the data by using following steps on the terminal/cmd prompt.
+**Step 7: ** Start the data by using following steps on the terminal/cmd prompt.
 
 ![image](https://user-images.githubusercontent.com/83789235/117398628-59e5fd80-aec4-11eb-849f-74ec37637f39.png)
  
