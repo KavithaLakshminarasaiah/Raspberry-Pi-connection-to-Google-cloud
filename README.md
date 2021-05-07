@@ -4,6 +4,7 @@ Google cloud with Raspberry Pi
 
 Internet of Things (IoT), the embedding of connected computing into everyday devices, has already emerged as a major trend and is projected to continue to expand rapidly in the coming years. In this report, we are going to build a data pipeline that starts with an Internet of Things (IoT) device that captures heart rate, leverages IoT Core to securely publish the data to a message queue where it will then be transported into a data warehouse. A Raspberry Pi with a heart rate sensor will be used for the IoT device and several components of the Google Cloud Platform will form the data pipeline. After completing the steps below, you will have a streaming data pipeline feeding a data warehouse where it can be retrieved to graphically display heart rate data over time.
 
+![image](https://user-images.githubusercontent.com/83789235/117398516-21deba80-aec4-11eb-9ef1-dcdfe1e6c86b.png)
 
  
 
