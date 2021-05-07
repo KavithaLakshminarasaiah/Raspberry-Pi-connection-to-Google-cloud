@@ -18,7 +18,9 @@ Internet of Things (IoT), the embedding of connected computing into everyday dev
 Using your google account sign up to the Google Cloud Platform console - console.cloud.google.com, Follow the below steps Using IoT Core to Stream the live Heart Rate Data by connecting your Raspberry Pi device.
 
 **Step 1:** Create a new project with name ‘iot-heartrate’. 
+
 **Step 2:** Enable API’s as shown below. Click on Enable APIs and Services
+
 **Step 3:** Create a BigQuery table. BigQuery is a serverless, highly scalable, low cost enterprise data warehouse. From the Cloud Console, select BigQuery and then Create new dataset – “heartRateData"  
 
 ![image](https://user-images.githubusercontent.com/83789235/117398546-328f3080-aec4-11eb-9671-e34f505d0246.png)
@@ -32,16 +34,18 @@ Cloud Pub/Sub is a simple, reliable, scalable foundation for streaming data and 
 
 From the Cloud Console, select Dataflow. Click on Create Job from Template. Give the job a name and select the Pub/Sub Subscription to Big/Query template. Click on Run Job.
 
+![image](https://user-images.githubusercontent.com/83789235/117398606-4d61a500-aec4-11eb-9b0d-c9ff40393ebd.png)
+
  
 
 **Step 6: **Create an IoT Core registry and Add the device to the IoT Core Registry
 
- 
-
+ ![image](https://user-images.githubusercontent.com/83789235/117398621-53578600-aec4-11eb-8b6f-8f60d1de7f17.png)
 
 
 **Step 7: **Start the data by using following steps on the terminal/cmd prompt.
 
+![image](https://user-images.githubusercontent.com/83789235/117398628-59e5fd80-aec4-11eb-849f-74ec37637f39.png)
  
 
 3. **Output:**
@@ -49,6 +53,8 @@ From the Cloud Console, select Dataflow. Click on Create Job from Template. Give
 If data is flowing properly then we will see the results when execute the select query on the table. 
 
 Visualize the data using Google Sheets as shown below.
+
+![image](https://user-images.githubusercontent.com/83789235/117398644-623e3880-aec4-11eb-8cd4-df6bd066db9b.png)
 
  
 **Summary:**
