@@ -57,7 +57,7 @@ Visualize the data using Google Sheets as shown below.
 ![image](https://user-images.githubusercontent.com/83789235/117398644-623e3880-aec4-11eb-8cd4-df6bd066db9b.png)
 
  
-****Summary:****
+**Summary:**
 
 This report shows the procedure to use Google cloud. Explain the Steps in detail needed to create Google Pub/Sub, data pipeline, Google Cloud Dataflow template and leverage Google BigQuery. The output above shows that we have created an entire data pipeline. In doing so, we have used Google IoT Core to secure IoT devices and to allow data to flow into Google Pub/Sub, deployed Dataflow from a template and pushed data into BigQuery and then used the integration with Google Sheets to perform a quick data visualization.
 
